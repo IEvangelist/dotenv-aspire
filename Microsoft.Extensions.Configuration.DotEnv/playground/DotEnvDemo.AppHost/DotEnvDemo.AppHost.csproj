@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotEnvDemo.Api\DotEnvDemo.Api.csproj" />
-    <ProjectReference Include="..\src\Microsoft.Extensions.Configuration.DotEnv.csproj" IsAspireProjectResource="false" />
+    <ProjectReference Include="..\..\src\Microsoft.Extensions.Configuration.DotEnv.csproj" IsAspireProjectResource="false" />
   </ItemGroup>
 
 </Project>
