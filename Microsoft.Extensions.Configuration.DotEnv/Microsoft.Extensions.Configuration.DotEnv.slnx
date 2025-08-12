@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Microsoft.Extensions.Configuration.DotEnv.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Microsoft.Extensions.Configuration.DotEnv.Tests.csproj" />
+  </Folder>
+  <Project Path="DotEnvDemo.Api/DotEnvDemo.Api.csproj" />
+  <Project Path="DotEnvDemo.AppHost/DotEnvDemo.AppHost.csproj" />
+</Solution>

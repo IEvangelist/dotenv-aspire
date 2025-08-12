@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>a2076e86-480a-4f81-a05d-5b4f42ca2cfa</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotEnvDemo.Api\DotEnvDemo.Api.csproj" />
+    <ProjectReference Include="..\src\Microsoft.Extensions.Configuration.DotEnv.csproj" IsAspireProjectResource="false" />
+  </ItemGroup>
+
+</Project>
